@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.mycompany.lsitadobletarafamilia;
 
 import javax.swing.DefaultListModel;
@@ -183,6 +179,7 @@ public class Principal extends javax.swing.JFrame {
         Persona miPersona=new Persona(Integer.parseInt(txtid.getText()), txtnombre.getText(), txtapellido.getText(), txtjsexo.getSelectedItem().toString(), 
                 Integer.parseInt(txtedad.getText()));
         miLista.agregarnodoalfinaldelalista(miPersona);
+        
         
     }//GEN-LAST:event_btnREgistrarActionPerformed
 
